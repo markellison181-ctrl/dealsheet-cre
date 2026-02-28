@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #1a2332;
+  --color-navy-50: #38455A;
+  --color-navy-100: #323F4E;
+  --color-navy-200: #2C3942;
+  --color-navy-300: #263336;
+  --color-navy-400: #202D2A;
+  --color-navy-500: #1a2332;
+  --color-navy-600: #141D28;
+  --color-gold: #c9a84c;
+  --color-gold-50: #F5E8C4;
+  --color-gold-100: #F0E0B6;
+  --color-gold-200: #E8D19A;
+  --color-gold-300: #E0C27E;
+  --color-gold-400: #D8B362;
+  --color-gold-500: #c9a84c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1a2332;
+  color: #ffffff;
+}
+
+/* Micro-interactions */
+.card-hover {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(201, 168, 76, 0.1);
+}
+
+/* Premium input focus */
+input:focus {
+  outline: none;
+  border-color: var(--color-gold) !important;
+  box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.15);
+}
+
+/* Uppercase label styling */
+.label-uppercase {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Gradient glow for sample preview */
+.sample-glow {
+  position: relative;
+}
+.sample-glow::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, rgba(201, 168, 76, 0.3), transparent 40%, transparent 60%, rgba(201, 168, 76, 0.15));
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.sample-glow:hover::before {
+  opacity: 1;
+}
