@@ -9,18 +9,27 @@ export const metadata: Metadata = {
   title: "DealSheet CRE — Commercial Real Estate Deal Intelligence",
   description:
     "Daily intelligence on commercial real estate transactions, cap rates, and market trends across US markets. Built for CRE brokers, investors, and developers.",
+  metadataBase: new URL("https://dealsheetcre.com"),
+  alternates: { canonical: "https://dealsheetcre.com" },
+  authors: [{ name: "SignalStack Media" }],
+  creator: "SignalStack Media",
+  publisher: "SignalStack Media",
   openGraph: {
     title: "DealSheet CRE — Commercial Real Estate Deal Intelligence",
     description:
       "Daily intelligence on commercial real estate transactions, cap rates, and market trends across US markets.",
     type: "website",
     url: "https://dealsheetcre.com",
+    siteName: "DealSheet CRE",
+    locale: "en_US",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "DealSheet CRE - Commercial Real Estate Deal Intelligence" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "DealSheet CRE — Commercial Real Estate Deal Intelligence", 
     description:
       "Daily intelligence on commercial real estate transactions, cap rates, and market trends across US markets.",
+    images: ["/og-image.png"],
   },
 };
 
