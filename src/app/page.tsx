@@ -146,6 +146,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Lead Magnet Banner */}
+      <section className="py-8 bg-emerald-600/10 border-y border-emerald-500/20">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div>
+            <p className="text-sm text-emerald-400 font-semibold mb-1">📊 FREE REPORT</p>
+            <p className="text-white font-bold text-lg">Top 20 CRE Markets to Watch in 2026</p>
+            <p className="text-gray-400 text-sm">Cap rates, growth signals, and catalysts for every market. Unlock instantly.</p>
+          </div>
+          <Link
+            href="/reports/top-cre-markets-2026"
+            className="shrink-0 px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-lg transition text-sm"
+          >
+            Get Free Report →
+          </Link>
+        </div>
+      </section>
+
       {/* What You Get */}
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-6">
