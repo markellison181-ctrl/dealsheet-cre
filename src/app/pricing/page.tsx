@@ -239,7 +239,28 @@ export default function Pricing() {
           </div>
         </div>
 
-        {/* FAQ */}
+        
+
+      {/* Sample Analysis */}
+      <div className="max-w-4xl mx-auto mt-16 mb-8">
+        <h3 className="text-xl font-semibold text-center mb-6">See sample analysis from our team</h3>
+        <div className="grid md:grid-cols-3 gap-4">
+          <Link href="/blog/cre-market-intelligence-guide-2026" className="block p-4 rounded-lg border border-gold/20 hover:border-gold/40 transition-all text-center">
+            <span className="text-gold text-sm font-medium">CRE Market Intelligence Guide 2026</span>
+            <span className="block text-gray-400 text-xs mt-1">Read analysis →</span>
+          </Link>
+          <Link href="/blog/cap-rate-calculator-understanding-cre-valuations" className="block p-4 rounded-lg border border-gold/20 hover:border-gold/40 transition-all text-center">
+            <span className="text-gold text-sm font-medium">Cap Rate Calculator: Understanding CRE Valuations</span>
+            <span className="block text-gray-400 text-xs mt-1">Read analysis →</span>
+          </Link>
+          <Link href="/blog/how-to-find-off-market-commercial-real-estate-deals-2026" className="block p-4 rounded-lg border border-gold/20 hover:border-gold/40 transition-all text-center">
+            <span className="text-gold text-sm font-medium">How to Find Off-Market CRE Deals in 2026</span>
+            <span className="block text-gray-400 text-xs mt-1">Read analysis →</span>
+          </Link>
+        </div>
+      </div>
+
+      {/* FAQ */}
         <div className="mt-20">
           <h2 className="text-3xl font-bold text-center mb-12">Frequently asked questions</h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">

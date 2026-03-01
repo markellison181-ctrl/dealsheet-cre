@@ -169,6 +169,27 @@ export default function TopCREMarketsPost() {
           </div>
         </div>
       </article>
+    
+      {/* Related Articles */}
+      <section className="max-w-4xl mx-auto px-6 pb-16">
+        <div className="border-t border-gold/20 pt-12">
+          <h3 className="text-2xl font-bold mb-6">Related Articles</h3>
+          <div className="space-y-3">
+                <Link href="/blog/cre-market-intelligence-guide-2026" className="block p-4 rounded-lg border border-gold/20 hover:border-gold/40 hover:bg-gold/5 transition-all">
+                  <span className="text-gold text-sm font-medium">→</span>
+                  <span className="ml-2 text-gray-200 hover:text-white">CRE Market Intelligence Guide 2026</span>
+                </Link>
+                <Link href="/blog/cap-rate-calculator-understanding-cre-valuations" className="block p-4 rounded-lg border border-gold/20 hover:border-gold/40 hover:bg-gold/5 transition-all">
+                  <span className="text-gold text-sm font-medium">→</span>
+                  <span className="ml-2 text-gray-200 hover:text-white">Cap Rate Calculator: Understanding CRE Valuations</span>
+                </Link>
+                <Link href="/blog/how-to-find-off-market-commercial-real-estate-deals-2026" className="block p-4 rounded-lg border border-gold/20 hover:border-gold/40 hover:bg-gold/5 transition-all">
+                  <span className="text-gold text-sm font-medium">→</span>
+                  <span className="ml-2 text-gray-200 hover:text-white">How to Find Off-Market CRE Deals in 2026</span>
+                </Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
