@@ -123,6 +123,40 @@ function Footer() {
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dealsheetcre.com/#organization",
+      name: "SignalStack Media LLC",
+      url: "https://signalstackmedia.com",
+      logo: "https://dealsheetcre.com/og-image.png",
+      sameAs: ["https://x.com/SignalStackHQ"],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dealsheetcre.com/#website",
+      url: "https://dealsheetcre.com",
+      name: "DealSheet CRE",
+      publisher: { "@id": "https://dealsheetcre.com/#organization" },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://dealsheetcre.com/blog?q={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "Periodical",
+      name: "DealSheet CRE Newsletter",
+      url: "https://dealsheetcre.com",
+      publisher: { "@id": "https://dealsheetcre.com/#organization" },
+      description: "Daily intelligence on commercial real estate transactions, cap rates, and market trends across US markets.",
+      isAccessibleForFree: true,
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -130,6 +164,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={`${inter.className} bg-navy text-white antialiased`}>
         <Header />
         <main>{children}</main>
