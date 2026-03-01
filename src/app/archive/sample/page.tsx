@@ -19,7 +19,7 @@ export default function SampleNewsletter() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-white">DealSheet CRE Weekly</h1>
-                <div className="text-gray-400 text-sm">Issue #1 — February 28, 2026</div>
+                <div className="text-slate-300 text-sm">Issue #1 — February 28, 2026</div>
               </div>
             </div>
             <div className="bg-gold/10 border border-gold/20 rounded-lg p-4">
@@ -98,7 +98,7 @@ export default function SampleNewsletter() {
                   <h3 className="font-semibold text-white">Industrial Portfolio — Dallas/Fort Worth</h3>
                   <span className="text-gold font-bold text-lg">$847M</span>
                 </div>
-                <div className="text-sm text-gray-400 mb-2">
+                <div className="text-sm text-slate-300 mb-2">
                   Buyer: Prologis | Seller: TA Realty | Cap Rate: 4.2%
                 </div>
                 <p className="text-gray-300 text-sm">
@@ -112,7 +112,7 @@ export default function SampleNewsletter() {
                   <h3 className="font-semibold text-white">Luxury Apartments — Austin</h3>
                   <span className="text-gold font-bold text-lg">$285M</span>
                 </div>
-                <div className="text-sm text-gray-400 mb-2">
+                <div className="text-sm text-slate-300 mb-2">
                   Buyer: Camden Property Trust | Seller: Greystar | Cap Rate: 5.4%
                 </div>
                 <p className="text-gray-300 text-sm">
@@ -126,7 +126,7 @@ export default function SampleNewsletter() {
                   <h3 className="font-semibold text-white">Retail Center — Phoenix</h3>
                   <span className="text-gold font-bold text-lg">$124M</span>
                 </div>
-                <div className="text-sm text-gray-400 mb-2">
+                <div className="text-sm text-slate-300 mb-2">
                   Buyer: Kimco Realty | Seller: Regency Centers | Cap Rate: 6.1%
                 </div>
                 <p className="text-gray-300 text-sm">
@@ -140,7 +140,7 @@ export default function SampleNewsletter() {
                   <h3 className="font-semibold text-white">Data Center — Northern Virginia</h3>
                   <span className="text-gold font-bold text-lg">$450M</span>
                 </div>
-                <div className="text-sm text-gray-400 mb-2">
+                <div className="text-sm text-slate-300 mb-2">
                   Buyer: Digital Realty | Seller: CyrusOne | Cap Rate: 5.8%
                 </div>
                 <p className="text-gray-300 text-sm">
@@ -159,7 +159,7 @@ export default function SampleNewsletter() {
                 <div className="w-2 h-2 bg-gold rounded-full mt-2"></div>
                 <div>
                   <div className="font-semibold text-white">Sarah Chen named CIO at Starwood Capital</div>
-                  <div className="text-sm text-gray-400">
+                  <div className="text-sm text-slate-300">
                     Former Brookfield Properties investment chief takes over $65B real estate portfolio. 
                     Signals continued focus on value-add and opportunistic strategies.
                   </div>
@@ -169,7 +169,7 @@ export default function SampleNewsletter() {
                 <div className="w-2 h-2 bg-gold rounded-full mt-2"></div>
                 <div>
                   <div className="font-semibold text-white">Marcus Thompson joins KKR Real Estate</div>
-                  <div className="text-sm text-gray-400">
+                  <div className="text-sm text-slate-300">
                     Ex-Blackstone MD hired to lead West Coast acquisitions. Previously closed $2.8B 
                     in industrial and logistics investments.
                   </div>
@@ -179,7 +179,7 @@ export default function SampleNewsletter() {
                 <div className="w-2 h-2 bg-gold rounded-full mt-2"></div>
                 <div>
                   <div className="font-semibold text-white">Lisa Rodriguez promoted at Hines</div>
-                  <div className="text-sm text-gray-400">
+                  <div className="text-sm text-slate-300">
                     Senior Vice President elevation to lead Southeast development. Oversees $1.2B 
                     pipeline including mixed-use projects in Miami and Atlanta.
                   </div>
@@ -220,46 +220,46 @@ export default function SampleNewsletter() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-navy-50/20">
-                    <th className="text-left text-gray-400 font-medium py-2">Asset Class</th>
-                    <th className="text-right text-gray-400 font-medium py-2">Current</th>
-                    <th className="text-right text-gray-400 font-medium py-2">Last Week</th>
-                    <th className="text-right text-gray-400 font-medium py-2">Change</th>
-                    <th className="text-right text-gray-400 font-medium py-2">YoY</th>
+                    <th className="text-left text-slate-300 font-medium py-2">Asset Class</th>
+                    <th className="text-right text-slate-300 font-medium py-2">Current</th>
+                    <th className="text-right text-slate-300 font-medium py-2">Last Week</th>
+                    <th className="text-right text-slate-300 font-medium py-2">Change</th>
+                    <th className="text-right text-slate-300 font-medium py-2">YoY</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-navy-50/10">
                   <tr>
                     <td className="py-2 text-white">Gateway Office (Class A)</td>
                     <td className="text-right text-white">6.85%</td>
-                    <td className="text-right text-gray-400">7.00%</td>
+                    <td className="text-right text-slate-300">7.00%</td>
                     <td className="text-right text-green-400">-15 bps</td>
                     <td className="text-right text-red-400">+45 bps</td>
                   </tr>
                   <tr>
                     <td className="py-2 text-white">Industrial (Last-Mile)</td>
                     <td className="text-right text-white">4.25%</td>
-                    <td className="text-right text-gray-400">4.30%</td>
+                    <td className="text-right text-slate-300">4.30%</td>
                     <td className="text-right text-green-400">-5 bps</td>
                     <td className="text-right text-green-400">-25 bps</td>
                   </tr>
                   <tr>
                     <td className="py-2 text-white">Multifamily (Core)</td>
                     <td className="text-right text-white">5.60%</td>
-                    <td className="text-right text-gray-400">5.65%</td>
+                    <td className="text-right text-slate-300">5.65%</td>
                     <td className="text-right text-green-400">-5 bps</td>
                     <td className="text-right text-red-400">+35 bps</td>
                   </tr>
                   <tr>
                     <td className="py-2 text-white">Retail (Anchored)</td>
                     <td className="text-right text-white">6.40%</td>
-                    <td className="text-right text-gray-400">6.40%</td>
-                    <td className="text-right text-gray-400">0 bps</td>
+                    <td className="text-right text-slate-300">6.40%</td>
+                    <td className="text-right text-slate-300">0 bps</td>
                     <td className="text-right text-red-400">+20 bps</td>
                   </tr>
                   <tr>
                     <td className="py-2 text-white">Data Centers</td>
                     <td className="text-right text-white">5.75%</td>
-                    <td className="text-right text-gray-400">5.80%</td>
+                    <td className="text-right text-slate-300">5.80%</td>
                     <td className="text-right text-green-400">-5 bps</td>
                     <td className="text-right text-green-400">-50 bps</td>
                   </tr>
@@ -272,7 +272,7 @@ export default function SampleNewsletter() {
         {/* Call to Action */}
         <div className="text-center">
           <h2 className="text-2xl font-bold mb-4">Get weekly intelligence like this</h2>
-          <p className="text-gray-400 mb-6">
+          <p className="text-slate-300 mb-6">
             Join the CRE professionals who start every Tuesday with DealSheet CRE intelligence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

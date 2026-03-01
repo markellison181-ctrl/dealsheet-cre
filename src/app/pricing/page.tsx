@@ -12,12 +12,11 @@ const IconCheck = () => (
   </svg>
 );
 
-// Stripe price IDs - will need to be created for DealSheet CRE
 const PRICE_IDS = {
-  pro_monthly: "price_dealsheet_pro_monthly", // To be created
-  pro_annual: "price_dealsheet_pro_annual", // To be created
-  enterprise_monthly: "price_dealsheet_enterprise_monthly", // To be created
-  enterprise_annual: "price_dealsheet_enterprise_annual", // To be created
+  pro_monthly: "price_1T5xsIPs7Nw0EhG0r3HBzVq0",
+  pro_annual: "price_1T5xsIPs7Nw0EhG00DsfIyHS",
+  enterprise_monthly: "price_1T5xsNPs7Nw0EhG04p5rgMTu",
+  enterprise_annual: "price_1T5xsOPs7Nw0EhG0BwmIWmS3",
 };
 
 export default function Pricing() {
@@ -57,14 +56,14 @@ export default function Pricing() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
             Simple pricing for <span className="text-gold">CRE professionals</span>
           </h1>
-          <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+          <p className="text-slate-300 text-lg max-w-3xl mx-auto">
             Start with our free weekly digest. Upgrade to Pro for daily alerts and full transaction access. 
             Scale with Enterprise for your entire team.
           </p>
           
           {/* Billing Toggle */}
           <div className="flex items-center justify-center gap-4 mt-8">
-            <span className={`text-sm font-medium ${billingCycle === "monthly" ? "text-white" : "text-gray-400"}`}>
+            <span className={`text-sm font-medium ${billingCycle === "monthly" ? "text-white" : "text-slate-300"}`}>
               Monthly
             </span>
             <button
@@ -77,7 +76,7 @@ export default function Pricing() {
                 }`}
               />
             </button>
-            <span className={`text-sm font-medium ${billingCycle === "annual" ? "text-white" : "text-gray-400"}`}>
+            <span className={`text-sm font-medium ${billingCycle === "annual" ? "text-white" : "text-slate-300"}`}>
               Annual
             </span>
             {billingCycle === "annual" && (
@@ -92,9 +91,9 @@ export default function Pricing() {
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {/* Free Tier */}
           <div className="card-hover bg-gradient-to-b from-navy-500/80 to-navy-500/40 border border-navy-50/30 rounded-xl p-8">
-            <div className="text-gray-400 label-uppercase mb-2">Free</div>
+            <div className="text-slate-300 label-uppercase mb-2">Free</div>
             <div className="text-4xl font-bold mb-1">$0</div>
-            <div className="text-gray-500 text-sm mb-8">forever</div>
+            <div className="text-slate-400 text-sm mb-8">forever</div>
             
             <ul className="space-y-3 text-sm text-gray-300 mb-8">
               <li className="flex items-start gap-2">
@@ -138,10 +137,10 @@ export default function Pricing() {
                 ${billingCycle === "monthly" ? "29" : "24"}
               </div>
               {billingCycle === "annual" && (
-                <div className="text-gray-500 line-through text-lg">$29</div>
+                <div className="text-slate-400 line-through text-lg">$29</div>
               )}
             </div>
-            <div className="text-gray-500 text-sm mb-8">
+            <div className="text-slate-400 text-sm mb-8">
               per month{billingCycle === "annual" && " (billed annually)"}
             </div>
             
@@ -182,21 +181,21 @@ export default function Pricing() {
             >
               {loading === "Pro" ? "Loading..." : "Start Pro Trial"}
             </button>
-            <p className="text-center text-xs text-gray-500 mt-2">14-day free trial</p>
+            <p className="text-center text-xs text-slate-400 mt-2">14-day free trial</p>
           </div>
 
           {/* Enterprise Tier */}
           <div className="card-hover bg-gradient-to-b from-navy-500/80 to-navy-500/40 border border-navy-50/30 rounded-xl p-8">
-            <div className="text-gray-400 label-uppercase mb-2">Enterprise</div>
+            <div className="text-slate-300 label-uppercase mb-2">Enterprise</div>
             <div className="flex items-baseline gap-2 mb-1">
               <div className="text-4xl font-bold">
                 ${billingCycle === "monthly" ? "99" : "82"}
               </div>
               {billingCycle === "annual" && (
-                <div className="text-gray-500 line-through text-lg">$99</div>
+                <div className="text-slate-400 line-through text-lg">$99</div>
               )}
             </div>
-            <div className="text-gray-500 text-sm mb-8">
+            <div className="text-slate-400 text-sm mb-8">
               per month{billingCycle === "annual" && " (billed annually)"}
             </div>
             
@@ -246,7 +245,7 @@ export default function Pricing() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div>
               <h3 className="text-lg font-semibold mb-2 text-gold">What markets do you cover?</h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-slate-300 text-sm">
                 We track all major US metropolitan markets including NYC, LA, Chicago, Dallas, 
                 Miami, San Francisco, and 50+ additional metro areas. Coverage prioritizes 
                 markets with $10M+ transaction volumes.
@@ -254,21 +253,21 @@ export default function Pricing() {
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-2 text-gold">What asset classes are included?</h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-slate-300 text-sm">
                 Office, retail, industrial, multifamily, hospitality, and specialty assets. 
                 We focus on investment-grade transactions ($5M+ for most asset classes).
               </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-2 text-gold">How fresh is the data?</h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-slate-300 text-sm">
                 Pro subscribers get alerts within 24-48 hours of transaction announcements. 
                 Weekly digest includes deals from the past 7 days with verified details.
               </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-2 text-gold">Can I cancel anytime?</h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-slate-300 text-sm">
                 Yes, you can cancel your subscription at any time. No contracts or 
                 cancellation fees. Your access continues until the end of your billing period.
               </p>
@@ -279,7 +278,7 @@ export default function Pricing() {
         {/* CTA */}
         <div className="text-center mt-20">
           <h2 className="text-3xl font-bold mb-4">Ready to stay ahead of the market?</h2>
-          <p className="text-gray-400 mb-8">Join hundreds of CRE professionals who trust DealSheet CRE for market intelligence.</p>
+          <p className="text-slate-300 mb-8">Join hundreds of CRE professionals who trust DealSheet CRE for market intelligence.</p>
           <Link 
             href="/#subscribe"
             className="inline-flex items-center gap-2 bg-gold text-navy px-8 py-3 rounded-lg font-semibold hover:bg-gold-300 transition-all duration-200 hover:shadow-lg hover:shadow-gold/20"

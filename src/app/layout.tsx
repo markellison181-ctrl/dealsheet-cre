@@ -72,38 +72,38 @@ function Footer() {
                 DealSheet<span className="text-gold">CRE</span>
               </span>
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-slate-300 text-sm leading-relaxed">
               Commercial real estate deal intelligence, delivered daily.
             </p>
-            <p className="text-gray-500 text-xs mt-4">
+            <p className="text-slate-400 text-xs mt-4">
               A <a href="https://signalstackmedia.com" className="text-gold hover:text-gold-300 transition-colors">SignalStack</a> newsletter.
             </p>
           </div>
           <div>
             <h4 className="text-gold/80 font-semibold mb-4 label-uppercase">Content</h4>
             <ul className="space-y-2">
-              <li><Link href="/archive" className="text-gray-400 hover:text-gold transition-colors text-sm">Newsletter Archive</Link></li>
-              <li><Link href="/archive/sample" className="text-gray-400 hover:text-gold transition-colors text-sm">Sample Issue</Link></li>
-              <li><Link href="/blog" className="text-gray-400 hover:text-gold transition-colors text-sm">Blog</Link></li>
+              <li><Link href="/archive" className="text-slate-300 hover:text-gold transition-colors text-sm">Newsletter Archive</Link></li>
+              <li><Link href="/archive/sample" className="text-slate-300 hover:text-gold transition-colors text-sm">Sample Issue</Link></li>
+              <li><Link href="/blog" className="text-slate-300 hover:text-gold transition-colors text-sm">Blog</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-gold/80 font-semibold mb-4 label-uppercase">Product</h4>
             <ul className="space-y-2">
-              <li><Link href="/pricing" className="text-gray-400 hover:text-gold transition-colors text-sm">Pricing</Link></li>
-              <li><Link href="/#subscribe" className="text-gray-400 hover:text-gold transition-colors text-sm">Subscribe</Link></li>
+              <li><Link href="/pricing" className="text-slate-300 hover:text-gold transition-colors text-sm">Pricing</Link></li>
+              <li><Link href="/#subscribe" className="text-slate-300 hover:text-gold transition-colors text-sm">Subscribe</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-gold/80 font-semibold mb-4 label-uppercase">Legal</h4>
             <ul className="space-y-2">
-              <li><Link href="/terms" className="text-gray-400 hover:text-gold transition-colors text-sm">Terms of Service</Link></li>
-              <li><Link href="/privacy" className="text-gray-400 hover:text-gold transition-colors text-sm">Privacy Policy</Link></li>
+              <li><Link href="/terms" className="text-slate-300 hover:text-gold transition-colors text-sm">Terms of Service</Link></li>
+              <li><Link href="/privacy" className="text-slate-300 hover:text-gold transition-colors text-sm">Privacy Policy</Link></li>
             </ul>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-navy-50/20 text-center">
-          <p className="text-gray-500 text-sm">
+          <p className="text-slate-400 text-sm">
             © {new Date().getFullYear()} SignalStack Media Inc. All rights reserved.
             <br />
             181 Bay Street, Suite 1400, Toronto ON M5J 2T3, Canada

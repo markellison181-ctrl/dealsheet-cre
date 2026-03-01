@@ -128,7 +128,7 @@ export default function Home() {
             </p>
             <div id="subscribe">
               <SubscribeForm />
-              <p className="text-gray-500 text-xs mt-4">
+              <p className="text-slate-400 text-xs mt-4">
                 Free weekly digest. No spam. Unsubscribe anytime.
               </p>
             </div>
@@ -139,7 +139,7 @@ export default function Home() {
       {/* Trust Signal */}
       <section className="py-10 bg-navy-500 border-y border-navy-50/10">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-gray-400 text-sm leading-relaxed">
+          <p className="text-slate-300 text-sm leading-relaxed">
             Built for CRE brokers, investors, developers, and lenders who need deal intelligence first.
           </p>
         </div>
@@ -152,7 +152,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
               Every issue delivers <span className="text-gold">five critical signals</span>
             </h2>
-            <p className="text-gray-400 max-w-2xl mx-auto">
+            <p className="text-slate-300 max-w-2xl mx-auto">
               No fluff, no filler. Each edition of DealSheet CRE is structured to give you
               the deal intelligence that matters in 5 minutes or less.
             </p>
@@ -194,7 +194,7 @@ export default function Home() {
               <div key={i} className="card-hover bg-navy-500/50 border border-navy-50/20 rounded-lg p-6 hover:border-gold/30">
                 <div className="text-gold mb-3">{item.icon}</div>
                 <h3 className="text-lg font-semibold mb-2 tracking-tight">{item.title}</h3>
-                <p className="text-gray-400 text-sm leading-relaxed">{item.description}</p>
+                <p className="text-slate-300 text-sm leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -206,7 +206,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 tracking-tight">See what you'll get</h2>
-            <p className="text-gray-400">Read a real issue of DealSheet CRE</p>
+            <p className="text-slate-300">Read a real issue of DealSheet CRE</p>
           </div>
           <div className="max-w-3xl mx-auto sample-glow">
             <div className="bg-navy border border-navy-50/30 rounded-xl overflow-hidden">
@@ -217,7 +217,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-white font-semibold text-sm">DealSheet CRE Weekly</div>
-                    <div className="text-gray-500 text-xs">Issue #1 — February 28, 2026</div>
+                    <div className="text-slate-400 text-xs">Issue #1 — February 28, 2026</div>
                   </div>
                 </div>
               </div>
@@ -225,7 +225,7 @@ export default function Home() {
                 <div>
                   <div className="text-gold label-uppercase mb-1">Deal of the Week</div>
                   <h3 className="text-lg font-bold tracking-tight">Blackstone Acquires Miami Office Portfolio for $2.1B</h3>
-                  <p className="text-gray-400 text-sm mt-2 leading-relaxed">
+                  <p className="text-slate-300 text-sm mt-2 leading-relaxed">
                     Blackstone Real Estate Income Trust purchased a 4.2M SF Miami office portfolio at a 6.8% cap rate,
                     signaling institutional appetite for grade-A office assets in gateway markets despite work-from-home headwinds...
                   </p>
@@ -270,15 +270,15 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-4 tracking-tight">
             Start free. Upgrade when you need more.
           </h2>
-          <p className="text-gray-400 mb-12 max-w-2xl mx-auto">
+          <p className="text-slate-300 mb-12 max-w-2xl mx-auto">
             The free weekly edition gives you the essential signals. Pro and Enterprise unlock
             daily alerts, full transaction access, and team features.
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <div className="card-hover bg-gradient-to-b from-navy-500/80 to-navy-500/40 border border-navy-50/30 rounded-xl p-8">
-              <div className="text-gray-400 label-uppercase mb-2">Free</div>
+              <div className="text-slate-300 label-uppercase mb-2">Free</div>
               <div className="text-4xl font-bold mb-1">$0</div>
-              <div className="text-gray-500 text-sm mb-6">forever</div>
+              <div className="text-slate-400 text-sm mb-6">forever</div>
               <ul className="space-y-3 text-sm text-gray-300 text-left mb-8">
                 <li className="flex items-start gap-2"><IconCheck /> Weekly digest every Tuesday</li>
                 <li className="flex items-start gap-2"><IconCheck /> Deal of the Week</li>
@@ -295,7 +295,7 @@ export default function Home() {
               </div>
               <div className="text-gold label-uppercase mb-2">Pro</div>
               <div className="text-4xl font-bold mb-1">$29</div>
-              <div className="text-gray-500 text-sm mb-6">per month</div>
+              <div className="text-slate-400 text-sm mb-6">per month</div>
               <ul className="space-y-3 text-sm text-gray-300 text-left mb-8">
                 <li className="flex items-start gap-2"><IconCheck /> Everything in Free</li>
                 <li className="flex items-start gap-2"><IconCheck /> Daily transaction alerts</li>
@@ -308,9 +308,9 @@ export default function Home() {
               </Link>
             </div>
             <div className="card-hover bg-gradient-to-b from-navy-500/80 to-navy-500/40 border border-navy-50/30 rounded-xl p-8">
-              <div className="text-gray-400 label-uppercase mb-2">Enterprise</div>
+              <div className="text-slate-300 label-uppercase mb-2">Enterprise</div>
               <div className="text-4xl font-bold mb-1">$99</div>
-              <div className="text-gray-500 text-sm mb-6">per month</div>
+              <div className="text-slate-400 text-sm mb-6">per month</div>
               <ul className="space-y-3 text-sm text-gray-300 text-left mb-8">
                 <li className="flex items-start gap-2"><IconCheck /> Everything in Pro</li>
                 <li className="flex items-start gap-2"><IconCheck /> Up to 10 team seats</li>
@@ -332,7 +332,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-4 tracking-tight">
             The best CRE deals happen fast.
           </h2>
-          <p className="text-gray-400 mb-8">
+          <p className="text-slate-300 mb-8">
             Join the brokers, investors, and developers who start every week
             with DealSheet CRE intelligence.
           </p>
