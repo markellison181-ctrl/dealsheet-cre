@@ -67,7 +67,7 @@ export default function OffMarketDealsPost() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Why Off-Market Deals Outperform</h2>
 
           <p className="text-gray-300 leading-relaxed text-lg">
-            Before diving into strategies, it&apos;s important to understand <em>why</em> off-market deals typically deliver better returns. The economics are straightforward: less competition equals better pricing. When a commercial property hits the open market, it&apos;s exposed to hundreds of potential buyers, creating a competitive bidding environment that drives prices up and cap rates down.
+            Before diving into strategies, it&apos;s important to understand <em>why</em> off-market deals typically deliver better returns. The economics are straightforward: less competition equals better pricing. When a commercial property hits the open market, it&apos;s exposed to hundreds of potential buyers, creating a competitive bidding environment that drives prices up and cap rates down. Understanding how to evaluate these deals starts with <Link href="/blog/cap-rate-calculator-understanding-cre-valuations" className="text-gold underline hover:text-gold-300">mastering cap rate analysis</Link>.
           </p>
 
           <p className="text-gray-300 leading-relaxed text-lg">
@@ -196,7 +196,7 @@ export default function OffMarketDealsPost() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">The Bottom Line</h2>
 
           <p className="text-gray-300 leading-relaxed text-lg">
-            In 2026&apos;s competitive CRE market, the ability to source off-market deals isn&apos;t just an advantage — it&apos;s a necessity. With interest rates elevated, cap rates compressing on listed properties, and institutional capital flooding the market, the marginal advantage of off-market sourcing has never been greater.
+            In 2026&apos;s competitive CRE market, the ability to source off-market deals isn&apos;t just an advantage — it&apos;s a necessity. With interest rates elevated, cap rates compressing on listed properties, and institutional capital flooding the market, the marginal advantage of off-market sourcing has never been greater. See which markets offer the best opportunities in our <Link href="/blog/top-10-cre-markets-to-watch-2026" className="text-gold underline hover:text-gold-300">top 10 CRE markets to watch</Link>.
           </p>
 
           <p className="text-gray-300 leading-relaxed text-lg">

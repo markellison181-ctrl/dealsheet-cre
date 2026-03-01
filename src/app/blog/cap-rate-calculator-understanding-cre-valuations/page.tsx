@@ -95,7 +95,7 @@ export default function CapRatePost() {
           </div>
 
           <p className="text-gray-300 leading-relaxed text-lg">
-            These ranges reflect national averages. Primary markets like New York, San Francisco, and Los Angeles typically trade at cap rates 100-200 basis points below these averages, while secondary and tertiary markets may be 100-300 basis points higher.
+            These ranges reflect national averages. Primary markets like New York, San Francisco, and Los Angeles typically trade at cap rates 100-200 basis points below these averages, while secondary and tertiary markets may be 100-300 basis points higher. For a deeper look at which metros are moving, see our <Link href="/blog/top-10-cre-markets-to-watch-2026" className="text-gold underline hover:text-gold-300">top 10 CRE markets to watch in 2026</Link>. And if you&apos;re looking to source deals at better cap rates, check out our guide to <Link href="/blog/how-to-find-off-market-commercial-real-estate-deals-2026" className="text-gold underline hover:text-gold-300">finding off-market CRE deals</Link>.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">How to Calculate NOI Correctly</h2>

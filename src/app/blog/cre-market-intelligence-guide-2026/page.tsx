@@ -38,13 +38,13 @@ export default function CREMarketIntelligenceGuide() {
           <p>
             The commercial real estate market in 2026 moves faster than ever before. With $800+ billion 
             in annual US CRE transaction volume and cap rates fluctuating weekly, the difference between 
-            profit and loss often comes down to information timing.
+            profit and loss often comes down to information timing. Understanding <Link href="/blog/cap-rate-calculator-understanding-cre-valuations" className="text-gold underline hover:text-gold-300">how cap rates work</Link> is fundamental to making sense of this data.
           </p>
 
           <p>
             Traditional CRE research methods—quarterly reports, annual market surveys, and conference networking—
             simply can't keep pace with modern deal flow. Today's most successful CRE professionals rely on 
-            real-time market intelligence to:
+            real-time market intelligence to identify <Link href="/blog/how-to-find-off-market-commercial-real-estate-deals-2026" className="text-gold underline hover:text-gold-300">off-market opportunities</Link> and spot emerging <Link href="/blog/top-10-cre-markets-to-watch-2026" className="text-gold underline hover:text-gold-300">top-performing markets</Link>. Specifically, they use data to:
           </p>
 
           <ul className="space-y-2">
@@ -247,6 +247,25 @@ export default function CREMarketIntelligenceGuide() {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
+            </Link>
+          </div>
+        </div>
+
+        {/* Related Articles */}
+        <div className="border-t border-gold/20 pt-12 mt-12">
+          <h3 className="text-2xl font-bold mb-6">Related Articles</h3>
+          <div className="space-y-3">
+            <Link href="/blog/cap-rate-calculator-understanding-cre-valuations" className="block p-4 rounded-lg border border-gold/20 hover:border-gold/40 hover:bg-gold/5 transition-all">
+              <span className="text-gold text-sm font-medium">→</span>
+              <span className="ml-2 text-gray-200 hover:text-white">Cap Rate Calculator: Understanding CRE Valuations</span>
+            </Link>
+            <Link href="/blog/how-to-find-off-market-commercial-real-estate-deals-2026" className="block p-4 rounded-lg border border-gold/20 hover:border-gold/40 hover:bg-gold/5 transition-all">
+              <span className="text-gold text-sm font-medium">→</span>
+              <span className="ml-2 text-gray-200 hover:text-white">How to Find Off-Market Commercial Real Estate Deals in 2026</span>
+            </Link>
+            <Link href="/blog/top-10-cre-markets-to-watch-2026" className="block p-4 rounded-lg border border-gold/20 hover:border-gold/40 hover:bg-gold/5 transition-all">
+              <span className="text-gold text-sm font-medium">→</span>
+              <span className="ml-2 text-gray-200 hover:text-white">Top 10 CRE Markets to Watch in 2026</span>
             </Link>
           </div>
         </div>

@@ -142,7 +142,7 @@ export default function TopCREMarketsPost() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">How to Use This Data</h2>
 
           <p className="text-gray-300 leading-relaxed text-lg">
-            Market selection is just the first step. Within each top market, returns vary dramatically by submarket, property type, and deal structure. A Class A multifamily property in Nashville&apos;s Germantown neighborhood will perform very differently from a Class C multifamily property in a Nashville suburb.
+            Market selection is just the first step. Within each top market, returns vary dramatically by submarket, property type, and deal structure. A Class A multifamily property in Nashville&apos;s Germantown neighborhood will perform very differently from a Class C multifamily property in a Nashville suburb. Use our <Link href="/blog/cap-rate-calculator-understanding-cre-valuations" className="text-gold underline hover:text-gold-300">cap rate calculator guide</Link> to properly evaluate deals, and learn how to <Link href="/blog/how-to-find-off-market-commercial-real-estate-deals-2026" className="text-gold underline hover:text-gold-300">source off-market opportunities</Link> in these top markets.
           </p>
 
           <p className="text-gray-300 leading-relaxed text-lg">
