@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import ExitIntentPopup from "../components/ExitIntentPopup";
 
 /* ── CRE-focused SVG Icons ── */
 const IconBuilding = () => (
@@ -341,6 +342,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ExitIntentPopup />
     </>
   );
 }
